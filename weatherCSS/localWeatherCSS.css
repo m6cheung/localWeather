@@ -1,0 +1,70 @@
+body {
+  background: no-repeat center center fixed;
+  background-size: cover;
+  background-size: cover;
+}
+
+#header-title {
+  color: black;
+  font-weight: bold;
+}
+
+.holder-div {
+  border: none;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid black;
+  background: white;
+  opacity: 0.8
+}
+
+.weather-div {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  margin-top: 75px;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px black;
+  background: white;
+  opacity: 0.8;
+}
+
+.super-div {
+  text-align: center;
+}
+
+#temp {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 270px;
+  height: 75px;
+  padding-top: 13px;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background: white;
+  opacity: 0.8;
+}
+
+.loc {
+  width: 300px;
+}
+
+#location {
+  color: black;
+  font-weight: bold;
+}
+
+#wind {
+  color: black;
+  font-weight: bold;
+}
+
+#status {
+  color: black;
+  font-weight: bold;
+}
