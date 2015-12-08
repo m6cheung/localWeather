@@ -53,9 +53,9 @@ var findLocation = function() {
           var openStatus = response.list[0].weather[0].main;
           loadBG(lat, lon, openStatus);
           data.unitConversionTemperature = openTemp;
-          data.wind.innerHTML = "<p style='font-size:30px; color: brown'>&nbspWind Speed:&nbsp</p>" + openWind + " m/s";
-          data.status.innerHTML = "<p style='font-size:25px; color: brown'>&nbspCurrent Conditions:&nbsp</p>" + openStatus;
-          data.temperature.innerHTML = openTemp + data.units + "<p style='font-size: 12px'>Click to change units</p>";
+          data.wind.innerHTML = "<p style='font-size:15px; color: brown'>&nbspWind Speed:&nbsp</p>" + openWind + " m/s";
+          data.status.innerHTML = "<p style='font-size:15px; color: brown'>&nbspCurrent Conditions:&nbsp</p>" + openStatus;
+          data.temperature.innerHTML = openTemp + data.units + "<p style='font-size: 8px'>Click to change units</p>";
           data.location.innerHTML = openCity;
           function loadBG(lat, lon, tag) {
           var scriptEl = document.createElement("script");
