@@ -13,7 +13,7 @@ var data = {
 	status: document.querySelector("#status"),
 	wind: document.querySelector("#wind"),
 	unitCoversionTemperature: 0,
-	units: "°C"
+	units: " °C"
 };
 
 //Create a function to switch between C and F
