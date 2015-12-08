@@ -15,7 +15,7 @@ body {
   width: 50%;
   margin-left: 25%;
   border: 1px solid black;
-  background: white;
+  background: #AABB00;
   opacity: 0.8
 }
 
@@ -28,7 +28,7 @@ body {
   margin-top: 75px;
   margin-right: 20px;
   box-shadow: 10px 10px 10px black;
-  background: white;
+  background: #AABB00;
   opacity: 0.8;
 }
 
@@ -46,7 +46,7 @@ body {
   text-align: center;
   color: black;
   font-weight: bold;
-  background: white;
+  background: #AABB00;
   opacity: 0.8;
 }
 
