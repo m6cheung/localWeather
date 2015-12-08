@@ -18,12 +18,12 @@ var data = {
 
 //Create a function to switch between C and F
 var switchUnits = function() {
-  if(data.units === "°C") {
+  if(data.units === " °C") {
     data.unitConversionTemperature = (data.unitConversionTemperature * (9/5) + 32).toFixed(2);
-    data.units = "°F";
+    data.units = " °F";
   } else {
     data.unitConversionTemperature = ((data.unitConversionTemperature - 32) * (5/9)).toFixed(2);
-    data.units = "°C";
+    data.units = " °C";
   }
   data.temperature.innerText = data.unitConversionTemperature + data.units;
 }
